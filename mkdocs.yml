@@ -65,6 +65,7 @@ plugins:
   # 検索欄
   - search
   - callouts
+  - tags
 
 extra:
   analytics:

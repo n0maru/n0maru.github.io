@@ -4,6 +4,10 @@ site_url: https://n0maru.github.io
 # コメントアウトしたら ./docs がドキュメントとして参照される
 docs_dir: submodules/memo/public
 
+nav:
+  - Home: ./
+  - About: About.md
+
 theme:
   name: material
   language: ja

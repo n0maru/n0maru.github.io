@@ -1,0 +1,68 @@
+site_name: n0maru's blog
+site_url: https://n0maru.github.io
+
+theme:
+  name: material
+  logo: /../logo/lightning-bolt.svg
+  language: ja
+  features:
+    - content.code.copy # コードのコピーボタン有効化
+    - search.sugget # 検索の候補リスト表示
+    - search.highlight # 検索で一致した結果をハイライトする
+    - navigation.tabs # トップレベル項目を画面上部メニューにタブ表示
+    - navigation.top # ページTOP遷移ボタンを有効化
+    - navigation.sections # 右側の文字表示
+    - header.autohide # スクロールしたときヘッダーを自動的に非表示にする
+  # ダークモード/ライトモード切替スイッチ
+  # Palette toggle for light mode
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      primary: blue
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      primary: blue grey
+      scheme: slate
+      toggle:
+        icon: material/brightness-3
+        name: Switch to light mode
+
+extra_css:
+  - stylesheet/common.css
+
+extra_javascript:
+  # 数式の表示
+  - http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
+markdown_extensions:
+  # 数式の表示
+  - mdx_math
+  # コールアウトの表示
+  - admonition
+  - pymdownx.details
+  # 脚注の表示
+  - footnotes
+  # シンタックスハイライト
+  - pymdownx.superfences
+  # HTML,CSS属性の構文
+  - attr_list
+  # markdown 内で :~~: でアイコン利用できる
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  # - git-revision-date
+  # obsidian 式リンク
+  - obsidian-bridge
+  # 検索欄
+  - search
+
+extra:
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX

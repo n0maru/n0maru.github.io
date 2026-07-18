@@ -34,7 +34,7 @@ theme:
         name: Switch to light mode
 
 extra_css:
-  - stylesheet/common.css
+  - style/common.css
 
 extra_javascript:
   # 数式の表示

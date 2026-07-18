@@ -15,6 +15,6 @@ git commit -m "update docs at %date% %time%"
 echo "更新完了"
 echo "ドキュメントを確認してプッシュしてください"
 
-mkdocs serve
+./run.bat
 
 popd

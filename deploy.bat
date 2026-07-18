@@ -2,6 +2,8 @@
 
 pushd %~dp0
 
+git push
+
 @REM リモートリポジトリの gh-pages ブランチにビルド内容をプッシュする
 mkdocs gh-deploy
 

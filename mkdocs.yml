@@ -1,5 +1,5 @@
 site_name: n0maru's blog
-site_url: https://n0maru.github.io/Index/
+site_url: https://n0maru.github.io
 
 # コメントアウトしたら ./docs がドキュメントとして参照される
 docs_dir: submodules/memo/3_Public

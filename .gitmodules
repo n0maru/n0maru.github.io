@@ -1,0 +1,3 @@
+[submodule "submodules/memo"]
+	path = submodules/memo
+	url = git@github.com:n0maru/memo.git

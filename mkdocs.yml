@@ -56,11 +56,11 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 plugins:
-  # - git-revision-date
   # obsidian 式リンク
   - obsidian-bridge
   # 検索欄
   - search
+  - callouts
 
 extra:
   analytics:

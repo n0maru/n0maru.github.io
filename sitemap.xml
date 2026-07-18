@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://n0maru.github.io/Index/Index/</loc>
+         <loc>https://n0maru.github.io/</loc>
          <lastmod>2026-07-18</lastmod>
     </url>
     <url>
-         <loc>https://n0maru.github.io/Index/Article/Index/</loc>
+         <loc>https://n0maru.github.io/Article/Index/</loc>
          <lastmod>2026-07-18</lastmod>
     </url>
     <url>
-         <loc>https://n0maru.github.io/Index/Article/%E6%97%85%E8%A1%8C%E6%BA%96%E5%82%99/</loc>
+         <loc>https://n0maru.github.io/Article/%E6%97%85%E8%A1%8C%E6%BA%96%E5%82%99/</loc>
          <lastmod>2026-07-18</lastmod>
     </url>
     <url>
-         <loc>https://n0maru.github.io/Index/Note/Index/</loc>
+         <loc>https://n0maru.github.io/Note/Index/</loc>
          <lastmod>2026-07-18</lastmod>
     </url>
 </urlset>

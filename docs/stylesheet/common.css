@@ -9,23 +9,30 @@ body {
 
 h1 {
   font-size: 167%;
-  background-color: #eee;
-  border-left: 6px solid #bbb;
-  padding: 4px 0 0 8px;
+  font-weight: bold;
 }
 
 h2 {
-  font-size: 124%;
-  background-color: #eee;
-  border-left: 6px solid #bbb;
-  padding: 2px 0 0 8px;
+  padding: 0.4em;/*文字周りの余白*/
+  color: #494949;/*文字色*/
+  background: #fffaf4;/*背景色*/
+  border-left: solid 5px #ffaf58;/*左線（実線 太さ 色）*/
 }
 
 h3 {
+  /*線の種類（実線） 太さ 色*/
+  border-bottom: solid 3px black;
   font-size: 100%;
   background-color: #eee;
+  color: black;
 }
 
 h3::before {
   content: "\25FE"; /* ◼️ Black Medium Square */
+}
+
+/* タグの前に # を表示する */
+.md-tag::before {
+  content: "#";
+  color: gray;
 }

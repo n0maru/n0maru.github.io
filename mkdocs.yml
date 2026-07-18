@@ -1,9 +1,11 @@
 site_name: n0maru's blog
 site_url: https://n0maru.github.io
 
+# コメントアウトしたら ./docs がドキュメントとして参照される
+docs_dir: submodules/memo/public
+
 theme:
   name: material
-  logo: /../logo/lightning-bolt.svg
   language: ja
   features:
     - content.code.copy # コードのコピーボタン有効化

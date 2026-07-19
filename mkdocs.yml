@@ -38,7 +38,7 @@ extra_css:
 
 extra_javascript:
   # 数式の表示
-  - http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 markdown_extensions:
   # 数式の表示

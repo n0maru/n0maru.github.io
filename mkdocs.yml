@@ -62,14 +62,18 @@ markdown_extensions:
   - nl2br
 
 plugins:
-  # obsidian 式リンク
-  - obsidian-bridge
   # 検索欄
   - search
+  - obsidian-excalidraw:
+      FencePrefix: ""
+  # obsidian 式リンク
+  - obsidian-support
+  - obsidian-bridge
   - callouts
   - tags
-
-extra:
-  analytics:
-    provider: google
-    property: G-XXXXXXXXXX
+  - kroki:
+      fence_prefix: ""
+      enable_excalidraw: true
+      http_method: POST
+      file_types:
+        - svg

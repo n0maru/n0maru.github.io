@@ -9,7 +9,7 @@ theme:
   language: ja
   features:
     - content.code.copy # コードのコピーボタン有効化
-    - search.sugget # 検索の候補リスト表示
+    - search.suggest # 検索の候補リスト表示
     - search.highlight # 検索で一致した結果をハイライトする
     - navigation.tabs # トップレベル項目を画面上部メニューにタブ表示
     - navigation.top # ページTOP遷移ボタンを有効化

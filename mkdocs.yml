@@ -43,6 +43,8 @@ extra_javascript:
 markdown_extensions:
   # 数式の表示
   - mdx_math
+  # インライン数式の表示に必要
+  - pymdownx.arithmatex
   # コールアウトの表示
   - admonition
   - pymdownx.details
